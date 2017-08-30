@@ -44,8 +44,8 @@
 }
 
 /* Remove tooltips */
-.tooltipped:not(.reaction-summary-item,.avatar-group-item,.avatar):before,
-.tooltipped:not(.reaction-summary-item,.avatar-group-item,.avatar):after {
+.tooltipped:not(.reaction-summary-item, .avatar-group-item, .avatar):before,
+.tooltipped:not(.reaction-summary-item, .avatar-group-item, .avatar):after {
 	display: none !important;
 }
 
@@ -82,7 +82,8 @@
 }
 
 /* Remove top buttons on comment box */
-.timeline-comment-wrapper .tabnav-extra, .inline-comment-form-container .tabnav-extra {
+.timeline-comment-wrapper .tabnav-extra,
+.inline-comment-form-container .tabnav-extra {
 	display: none !important;
 }
 
@@ -259,7 +260,8 @@ forked a repo
 	padding: 0 0 0 45px !important;
 }
 
-:root .news .alert .body { /* Higher specificity, avoids !important */
+:root .news .alert .body {
+	/* Higher specificity, avoids !important */
 	padding: 1em 0;
 }
 
@@ -316,8 +318,6 @@ we will add it back on for the simple news alerts we decide to show
 	width: 28px !important;
 }
 
-
-
 /* Decrease font-size on commit details so our custom patch and diff links fit */
 .commit .sha-block {
 	margin-left: 7px !important;
@@ -365,7 +365,8 @@ we will add it back on for the simple news alerts we decide to show
 }
 
 /* Limit width of commit title and description inputs to 50/80 chars */
-#commit-summary-input, #commit-description-textarea {
+#commit-summary-input,
+#commit-description-textarea {
 	font-family: monospace !important;
 }
 
@@ -403,7 +404,7 @@ we will add it back on for the simple news alerts we decide to show
 }
 
 .reaction-summary-item {
-	--background: #FFF;
+	--background: #fff;
 }
 
 .reaction-summary-item.user-has-reacted {
@@ -522,7 +523,7 @@ Hidden content area created to increase hover target
 
 /* Change color of marker if there are only discussion marked as unread */
 .notification-indicator[data-ga-click$=":read"] .unread {
-	background: linear-gradient(#34d058, #28a745)
+	background: linear-gradient(#34d058, #28a745);
 }
 
 /* +/- Pseudo elements on diffs */
@@ -561,7 +562,6 @@ Hidden content area created to increase hover target
 .new-user-avatar-cta {
 	display: none !important;
 }
-
 
 /* Fix PR diffbar links position #474 */
 .stale-files-tab,
@@ -660,11 +660,14 @@ a.tabnav-extra[href$="mastering-markdown/"] {
 .js-issue-row .labels {
 	order: 1;
 }
-.js-issue-row .h4, /* Title */
-.js-issue-row .d-inline-block.mr-1 {  /* Build status */
+.js-issue-row .h4,
+/* Title */
+.js-issue-row .d-inline-block.mr-1 {
+	/* Build status */
 	padding-right: 4px; /* Space before the build status */
 }
-.js-issue-row .mt-1.text-small.text-gray { /* Issue details line */
+.js-issue-row .mt-1.text-small.text-gray {
+	/* Issue details line */
 	flex-basis: 100%;
 }
 .js-issue-row .label {
@@ -685,7 +688,12 @@ a.tabnav-extra[href$="mastering-markdown/"] {
 
 /* Sticky file headers on pull request diff view */
 .pull-request-tab-content .diff-view .file-header {
-    position: sticky;
-    top: 60px;
-    z-index: 1;
+	position: sticky;
+	top: 60px;
+	z-index: 1;
+}
+
+/* Remove Github Jobs Promotion */
+.github-jobs-promotion {
+	display: none;
 }
