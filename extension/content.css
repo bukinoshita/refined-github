@@ -706,3 +706,8 @@ a.tabnav-extra[href$="mastering-markdown/"] {
 .news .alert .octicon {
 	display: none;
 }
+
+/* Change weight of title on home feed */
+.news .alert .body .title {
+	font-weight: 400 !important;
+}
