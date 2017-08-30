@@ -693,7 +693,16 @@ a.tabnav-extra[href$="mastering-markdown/"] {
 	z-index: 1;
 }
 
-/* Remove Github Jobs Promotion */
+/* Hide Github Jobs Promotion */
 .github-jobs-promotion {
+	display: none;
+}
+
+/* Hide OctIcon on home feed */
+.news .alert {
+	padding-left: 0 !important;
+}
+
+.news .alert .octicon {
 	display: none;
 }
