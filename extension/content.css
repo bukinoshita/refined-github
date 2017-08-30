@@ -711,3 +711,61 @@ a.tabnav-extra[href$="mastering-markdown/"] {
 .news .alert .body .title {
 	font-weight: 400 !important;
 }
+
+/* Refine list of repositories */
+.mini-repo-list-item .repo {
+	font-weight: 400 !important;
+}
+
+#your_repos .filter-bar {
+	background-color: #fff;
+	border-bottom: 1px solid #eee;
+}
+
+#your_repos .boxed-group-inner {
+	border: 1px solid #eee;
+}
+
+#your_repos .form-control,
+#your_repos .form-select {
+	border: 1px solid #eee;
+	box-shadow: none;
+}
+
+#your_repos .more-repos-link {
+	background-color: #fff;
+	border-top: 1px solid #eee;
+}
+
+.account-switcher .btn.select-menu-button {
+	background: #fff;
+	border-color: #eee;
+}
+
+.btn.select-menu-button:hover,
+.btn.select-menu-button:active,
+.btn.select-menu-button.selected {
+	background: #fff;
+	border-color: #ddd;
+	box-shadow: none;
+}
+
+/* Refine Repository page */
+.repohead.experiment-repo-nav {
+	background-color: #fff !important;
+	border-color: #eee !important;
+}
+
+#your_repos .mini-repo-list-item,
+.select-menu .select-menu-modal,
+.repository-content .overall-summary,
+.repository-content .file-wrap,
+.repository-content .branch-infobar,
+.repository-content .readme .markdown-body,
+.repository-content .readme .plain {
+	border-color: #eee;
+}
+
+.repository-content .branch-infobar {
+	background-color: #fff;
+}
