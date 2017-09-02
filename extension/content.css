@@ -770,3 +770,8 @@ a.tabnav-extra[href$="mastering-markdown/"] {
 .repository-content .branch-infobar {
 	background-color: #fff;
 }
+
+body .border-gray-dark,
+body .border {
+	border-color: #eee !important;
+}
