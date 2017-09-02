@@ -772,6 +772,7 @@ a.tabnav-extra[href$="mastering-markdown/"] {
 }
 
 body .border-gray-dark,
-body .border {
+body .border,
+.user-profile-nav {
 	border-color: #eee !important;
 }
